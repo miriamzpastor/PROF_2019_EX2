@@ -20,10 +20,12 @@ public class ClaseExamen {
 			}
 		 }
 		//casos válidos
+
 		for (int i = 0; i<numeros.length;i++) {
 			if(n%numeros[i]==0) {
 				solucion.add(numeros[i]);
 				n = n/numeros[i];
+				i=0;
 			}
 		 }
 		

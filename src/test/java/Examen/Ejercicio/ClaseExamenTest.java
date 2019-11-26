@@ -37,6 +37,7 @@ public class ClaseExamenTest {
 		int ejemplo = 25;
 		List<Integer> lista = new ArrayList<Integer>();
 		lista.add(5);
+		lista.add(5);
 		Assert.assertEquals(lista, prueba.primos(ejemplo));
 	}
 	
