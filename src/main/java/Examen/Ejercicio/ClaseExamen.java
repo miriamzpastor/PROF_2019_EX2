@@ -8,9 +8,9 @@ public class ClaseExamen {
 		//Creo la lista que devolveré
 		List <Integer> solucion = new ArrayList<Integer>();
 		// Array de números impares
-		int[] numeros ={1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71};
+		int[] numeros ={2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71};
 		//números negativos
-		if (n<0) {
+		if (n<2) {
 			throw new Exception("EntradaInvalida");
 		}
 		//número primo

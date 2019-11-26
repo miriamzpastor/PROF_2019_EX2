@@ -27,7 +27,6 @@ public class ClaseExamenTest {
 	public void validoseis() throws Exception{
 		int ejemplo = 6;
 		List<Integer> lista = new ArrayList<Integer>();
-		lista.add(1);
 		lista.add(2);
 		lista.add(3);
 		Assert.assertEquals(lista, prueba.primos(ejemplo));
@@ -37,7 +36,6 @@ public class ClaseExamenTest {
 	public void validodoscinco() throws Exception{
 		int ejemplo = 25;
 		List<Integer> lista = new ArrayList<Integer>();
-		lista.add(1);
 		lista.add(5);
 		Assert.assertEquals(lista, prueba.primos(ejemplo));
 	}
